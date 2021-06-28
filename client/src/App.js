@@ -11,8 +11,8 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path={["/", "/books"]}>
-            <Books />
+          <Route exact path={["/", "/search"]}>
+            <Search />
           </Route>
           <Route exact path="/books/:id">
             <Detail />
