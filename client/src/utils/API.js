@@ -18,8 +18,8 @@ export default {
   saveBook: function(bookData) {
     return axios.post("/api/books", bookData);
   },
-  searchBook: function (query, cb) {
-    books.search(query, (error, result) => {
+  searchGoogleBooks: function (query, cb) {
+    googleBooks.search(query, (error, result) => {
       if (error) throw (error);
       cb(result);
     });
