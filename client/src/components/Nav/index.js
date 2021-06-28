@@ -1,6 +1,11 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
+
 
 function Nav() {
+
+  const { pathname } = useLocation();
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <a className="navbar-brand" href="/">React Reading List Powered by Google Books</a>

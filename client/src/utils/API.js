@@ -1,5 +1,5 @@
 import axios from "axios";
-import books from "google-books-search";
+import googleBooks from "google-books-search";
 
 export default {
   // Gets all books
