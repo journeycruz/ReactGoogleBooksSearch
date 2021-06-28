@@ -57,3 +57,5 @@ function Books() {
     </Container>
   );
 }
+
+export default Books;
